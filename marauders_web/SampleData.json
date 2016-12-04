@@ -1,0 +1,90 @@
+{
+    "Player": {
+        "PlayerID": 1,
+        "PlayerStatus": 1, // Offline / Online
+        "PlayerStats": {
+            "WizardLevel": 3,
+            "PotionLevel": 2,
+            "HealthLevel": 80,
+            "Score": 100,
+        },
+        "PlayerLocationHistory": [ ],
+        "Location": [
+            {
+                "RecordDateTime": 0, // DateTimeOffset
+                "Longitude": 1212,
+                "Latitude": 12132
+            }
+        ],
+    },
+    "Event": {
+        "Type": "Beast",
+        "BeastStatus": 1, // Offline / Online
+        "BeastStats": {
+            "BeastLevel": 4,
+            "PotionLevel": 1,
+            "HealthLevel": 100,
+            "Score": 150,
+        },
+        "Location": [
+            {
+                "RecordDateTime": 0, // DateTimeOffset
+                "Latitude": 51.544360,
+                "Longitude": -0.020020, 
+            }
+        ]
+    }
+    "Thing": [
+        {
+            "Type": "Player"
+        },
+        {
+            "Type": "Spell"
+        },
+        {
+            "Type": "Potion"
+        }
+    ],
+    "PlayerSpellHistory": [
+        {
+
+        }
+    ],
+    "SpellCommands": [
+        {
+            "SpellText": "potato"
+        },
+        {
+            "SpellText": "tomato"
+        },
+        {
+            "SpellText": "zuccini"
+        },
+        {
+            "SpellText": "onion"
+        }
+    ],
+    "Potions": [
+        {
+            "Name": "Magic Mushroom",
+            "PotionPower": 80,
+            "Ingredients": [
+                {
+                    "Name": "Redbull can",
+                    "VideoRecognition": "Redbull",
+                    "ItemCountRequired": 3
+                },
+                {
+                    "Name": "Dog",
+                    "VideoRecognition": "Dog",
+                    "ItemCountRequired": 1
+                },
+                {
+                    "Name": "Coffee",
+                    "VideoRecognition": "Coffee",
+                    "ItemCountRequired": 3
+                }
+            ]
+        }
+    ]
+}
